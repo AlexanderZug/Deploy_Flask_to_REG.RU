@@ -1,4 +1,9 @@
 # Deploy_Flask_to_REG.RU
+<img src="https://avatars.githubusercontent.com/u/685602?s=200&v=4" style='width: 15%'>
+<img src="https://i.ytimg.com/vi/b9BYA483yVI/maxresdefault.jpg" style='width: 12%'> 
+
+<br>
+
 Инструкция по деплою Flask-проекта на хостинг [REG.RU](https://www.reg.ru/)
 
 Мануал по добавлению программы на Flask, предложенный REG.RU, не раскрывает все детали этого увлекательного процесса.
