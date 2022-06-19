@@ -35,8 +35,35 @@ yoursite.domain
 (flaskenv) -bash-4.2$ git clone https://github.com/yourAccaunt/yourRepository.git
 ```
 
-10. После этого в дериктории вашего сайта в ispmanager на REG.RU появится папка с клонированным проектом. Теперь важно перенести все ее содержимое 
-в дерикторию домена. Для этого зайдите в папку с проектом, выделети все его содержимое и нажмите конопку "Копировать": после этого появится структура каталогов, необходимо выбрать папку с названием вашего домена и переместить туда все содержимое вашего проекта (нажав галочку напротив пункта "Перенести файлы")!
+10. После этого в дериктории вашего сайта в ispmanager на REG.RU появится папка с клонированным проектом (yourRepository). Теперь важно перенести все ее содержимое в дерикторию домена (yourSite.domain). Для этого зайдите в папку с проектом, выделети все его содержимое и нажмите конопку "Копировать": после этого появится структура каталогов, необходимо выбрать папку с названием вашего домена и переместить туда все содержимое вашего проекта (нажав галочку напротив пункта "Перенести файлы")!
 
-<img src="">
+<img src="https://raw.githubusercontent.com/AlexanderZug/Deploy_Flask_to_REG.RU-/main/2022-06-19_16.09.59.png">
+
+11. Удалить пустую папку с проектом (yourRepository)
+```
+(flaskenv) -bash-4.2$ ls
+config.py       models.py          static      yourRepository
+application.py  controller.py   passenger_wsgi.py  templates requirements.txt
+```   
+набрав команду rmdir yourRepository/
+```
+(flaskenv) -bash-4.2$ rmdir yourRepository/
+```
+должно получиться:
+```
+(flaskenv) -bash-4.2$ ls
+config.py       models.py          static 
+application.py  controller.py   passenger_wsgi.py  templates  requirements.txt
+```
+
+12. Установите зависимости
+```
+(flaskenv) -bash-4.2$ pip install -r requirements.txt
+```
+
+13. После установки зависимостей попробуйте запустить свой проект в терминале:
+```
+(flaskenv) -bash-4.2$ python application.py (вместо application.py должно быть 
+название вашего файла, в котором содержиться команда-запуск application.run())
+```
 
