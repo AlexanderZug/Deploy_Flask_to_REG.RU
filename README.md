@@ -66,5 +66,6 @@ application.py  controller.py   passenger_wsgi.py  templates  requirements.txt
 (flaskenv) -bash-4.2$ python application.py (вместо application.py должно быть 
 название вашего файла, в котором содержиться команда-запуск application.run())
 ```
+Если все работает корректно, остановите проект (Control+C). После этого можете закрыть терминал, он больше не понадобится.
 
-14. 
+14. На ispmanager зайдите в файл, запускающий сервер (application.py), и вынесети импорты из конструкции if __name__ = '__main__':
