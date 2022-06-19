@@ -84,4 +84,4 @@ if \_\_name\_\_ = '\_\_main\_\_':
 
 <br>
 
-> Мануал подготовили: [Ryize](https://github.com/Ryize), [AlexanderZug](https://github.com/AlexanderZug)
+> Мануал подготовили [Ryize](https://github.com/Ryize), [AlexanderZug](https://github.com/AlexanderZug)
