@@ -75,7 +75,7 @@ application.py  controller.py  templates  requirements.txt
 
 14. На ispmanager зайдите в файл, запускающий сервер (application.py; файл может называться по-разному, но нужен тот файл,
 в котором присутствует команда-запуска - application.run()) и перенесите импорты из конструкции 
-if \_\_name\_\_ = '\_\_main\_\_':
+if \_\_name\_\_ == '\_\_main\_\_':
 <img src="https://raw.githubusercontent.com/AlexanderZug/Deploy_Flask_to_REG.RU-/main/2022-06-19_16.43.36.png">
 
 Теперь вновь вернитесь к [инструкции](https://help.reg.ru/hc/ru/articles/4408047458449-%D0%9A%D0%B0%D0%BA-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-Flask-%D0%BD%D0%B0-%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3) REG.RU, а именно к 10-му пункту и завершите настройку.
